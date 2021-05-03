@@ -1,26 +1,39 @@
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
-import java.util.Date;
+import view.MainWindow;
+import view.film.FilmPanel;
+import view.film.PopUpFilmDetails;
 
 public class Main {
 
     public static void main(String[] args) {
+       //PopUpFilmDetails p = new PopUpFilmDetails();
+        //p.setVisible(true);
 
 
 
-        MyTime e = new MyTime ("2:45:11.3");
+
+        //String code = "st"+RandomStringUtils.random(9, true, true);
+        //System.out.println(code);
+
+        MainWindow w = new MainWindow();
+        w.setVisible(true);
+
+
+
+        /*
+
+
+
+        MyTime e = new MyTime("2:45:11.3");
 
 
 
         Film f = new Film("Ciao", e);
-        Personaggio b = new Personaggio ("Celeste");
+        Personaggio b = new Personaggio("Celeste");
         f.setPersonaggio("Mimi");
         f.setPersonaggio("Celeste");
 
         Anello w = new Anello ("0:00:0.0", "0:45:11.3" );
-        Anello y = new Anello ("0:50:0.0", "1:00:11.3" );
+        Anello y = new Anello("0:50:0.0", "1:00:11.3" );
         MyTime x = new MyTime ("1:30:0.0");
         MyTime z = new MyTime ("1:45:11.3");
 

@@ -7,5 +7,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="mysql:mysql-connector-java:8.0.24" level="project" />
+    <orderEntry type="library" name="org.openjfx:javafx-base:17-ea+8" level="project" />
   </component>
 </module>
